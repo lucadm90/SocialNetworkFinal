@@ -1,0 +1,19 @@
+<%= provide(:title, @user.name)%>  <!--definito in application helper-->
+<div class="row">
+  <div class ="col-md-3">
+    <%= gravatar_for @user%><!-- metodo definito in users helpers-->
+    <br>
+    <%= @user.name%>
+    <br>
+    <%= @user.surname%>
+    <br>
+    <%= @user.email%>
+    <br>
+    <%= link_to 'Edit', edit_user_path%>
+    <%= link_to 'Edit Password', users_edit_password_path%>
+    <%= link_to 'Delete Account', @user, :method => :delete, data: {confirm: 'Are you sure?'} %>
+    </div>
+  <div class="col-md-9">
+    <h1>My posts</h1>
+  </div>
+</div>

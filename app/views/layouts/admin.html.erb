@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Network</title>
+  <%= render :partial => "admin/shared/header" %> <!-- codice ruby per evitare di mettere 200 linee di codice in +
+ si usa il partial per richiamare codice dal file header -->
+</head>
+<body>
+<%= render :partial => "admin/shared/menu" %> <!-- per evitare di mettere 200 linee di codice in +
+ si usa il partial per richiamare codice dal file header -->
+
+<%= yield %> <!--indirizza tutti i file che abbiamo impostato permette di mettere il testo-->
+
+</body>
+</html>

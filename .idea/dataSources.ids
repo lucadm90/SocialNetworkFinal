@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails SocialNetworkFinal: development" uuid="bd942178-8e6f-4893-bbd2-53303201e0cf">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails SocialNetworkFinal: test" uuid="dedf981f-23f2-4c15-a06f-222cd33fa632">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails SocialNetworkFinal: production" uuid="e7a1a009-7958-4617-8266-11391f02d3aa">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
